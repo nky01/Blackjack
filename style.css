@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+#message-el {
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+#sum-el {
+    margin-bottom: 25px;
+}
+
+#player-el {
+    margin-top: 25px;    
+}
+
+button {
+    background-color: goldenrod;
+    color: rgb(136, 78, 2);
+    font-size: 1rem;
+    padding: 17px 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 6px 3px;
+}
+button:hover {
+    background-color: rgb(242, 194, 73);
+}
+button:active{
+    background-color: rgb(250, 204, 88);    
+}
