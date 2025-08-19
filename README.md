@@ -1,6 +1,6 @@
 # Blackjack 🎴  
 
-A simple **single-player Blackjack game** built with **JavaScript**.  
+A **single-player Blackjack game** built with **JavaScript**.  
 The goal of the game is to get as close as possible to 21 without going over.  
 
 ## Features  
